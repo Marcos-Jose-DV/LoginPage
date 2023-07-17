@@ -1,0 +1,1 @@
+C:\GitHub\LoginPages\LoginPages\LoginPages.csproj;x64

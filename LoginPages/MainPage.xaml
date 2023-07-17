@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginPages.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="50,0"
+            VerticalOptions="Center">
+            <Image Source="apple.png" Margin="0,0,0,50" WidthRequest="140"/>
+            <Label Text="Entre com seu email" TextColor="LightGray"/>
+            <Entry />
+            <Label Text="Entre com sua senha" TextColor="LightGray" Margin="0,30,0,0"/>
+            <Entry />
+            <Button Text="Entrar" Margin="0,30,0,0"/>
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="CenterAndExpand" Margin="0,30,0,0">
+                <Label Text="Não tem conta?"/>
+                <Label Text="Crie aqui" TextColor="#2cb3fc"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
