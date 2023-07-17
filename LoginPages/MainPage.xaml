@@ -16,6 +16,7 @@
             <HorizontalStackLayout Spacing="10" HorizontalOptions="CenterAndExpand" Margin="0,30,0,0">
                 <Label Text="Não tem conta?"/>
                 <Label Text="Crie aqui" TextColor="#2cb3fc"/>
+                
             </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
